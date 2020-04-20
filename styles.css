@@ -1,0 +1,64 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: darkslategray;
+}
+/*for color name it is possible to use HEX color code, ex: color:#314f57 */
+
+#cats {
+  background-color: teal;
+  width: 500px;
+  height: 500px;
+  margin: 30px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  border: 5px dotted blue;
+}
+/*We can provide a few font-families as above.
+In case if the font of the first choice is unavailable,
+a browser will use next unavailable font */
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+/*border-collapse: collapse;
+helps in changing the doucle boarders to single boarders inside the table.*/
+
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+/* If two or more kinds of elements require to be styled in the same way,
+we can list them together, dividing by comma.*/
+
+th{
+  background-color: lightgray;
+}
+
+#top{
+  font-size: 36px;
+}
+
+#middle{
+  font-size: 24px;
+}
+
+#bottom{
+  font-size: 12px;
+}
+/* # in CSS means id. Id is unique*/
+
+.name{
+  font-weight: bold;
+}
+/* . in CSS means class. class is not unique, we can have as many same classes as we want*/
+
+/*By default, CSS executes more specific (local, deeper inside the tree) thing. */
